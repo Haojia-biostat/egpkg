@@ -14,6 +14,5 @@ Propensity score matching
 }
 \examples{
 set.seed(7045)
-x <- runif(10)
-ps_match(x)
+ps_match(runif(10))
 }

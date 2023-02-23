@@ -5,8 +5,7 @@
 #' @return A list with two vectors (`match_id`, `match_x`).
 #' @examples
 #' set.seed(7045)
-#' x <- runif(10)
-#' ps_match(x)
+#' ps_match(runif(10))
 #' @export
 ps_match <- function(x) {
     .Call(`_egpkg_ps_match`, x)
